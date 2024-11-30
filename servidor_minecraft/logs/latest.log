@@ -289,3 +289,13 @@
 [30Nov2024 13:51:02.142] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (72.377s)! For help, type "help"
 [30Nov2024 13:51:02.175] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [30Nov2024 13:51:02.176] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[30Nov2024 13:59:53.840] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player sauldrack is 8d871ac1-dd74-3520-99a3-6efac214abaf
+[30Nov2024 13:59:56.444] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sauldrack[/127.71.168.233:49067] logged in with entity id 338 at (10.5, 66.0, 12.5)
+[30Nov2024 13:59:56.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack joined the game
+[30Nov2024 14:01:04.982] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:01:11.931] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:01:16.981] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:02:19.284] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sauldrack issued server command: /op sauldrack
+[30Nov2024 14:02:48.982] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:03:05.831] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:07:53.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack was slain by Zombie

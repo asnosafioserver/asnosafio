@@ -1711,3 +1711,174 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [30Nov2024 13:51:04.071] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method $SWITCH_TABLE$org$bukkit$block$DecoratedPot$Side()[I class org/bukkit/craftbukkit/v1_20_R1/block/CraftDecoratedPot
 [30Nov2024 13:56:02.152] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [30Nov2024 13:56:02.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[30Nov2024 13:59:47.306] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Mixing network.ServerHandshakeNetHandlerMixin from mixins.arclight.core.json into net.minecraft.server.network.ServerHandshakePacketListenerImpl
+[30Nov2024 13:59:47.306] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Renaming synthetic method lambda$handleIntention$0(JLjava/util/Map$Entry;)Z to md4af70c$lambda$handleIntention$0$0 in mixins.arclight.core.json:network.ServerHandshakeNetHandlerMixin
+[30Nov2024 13:59:47.343] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Mixing network.protocol.handshake.CHandshakePacketMixin from mixins.arclight.core.json into net.minecraft.network.protocol.handshake.ClientIntentionPacket
+[30Nov2024 13:59:47.498] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Mixing network.protocol.game.ClientboundSectionBlocksUpdatePacketMixin from mixins.arclight.core.json into net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket
+[30Nov2024 13:59:47.564] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Mixing network.protocol.game.ClientboundSystemChatPacketMixin from mixins.arclight.core.json into net.minecraft.network.protocol.game.ClientboundSystemChatPacket
+[30Nov2024 13:59:47.595] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Mixing network.protocol.game.CCloseWindowPacketMixin from mixins.arclight.core.json into net.minecraft.network.protocol.game.ServerboundContainerClosePacket
+[30Nov2024 13:59:47.642] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Mixing network.protocol.game.CPlayerTryUseItemOnBlockPacketMixin from mixins.arclight.core.json into net.minecraft.network.protocol.game.ServerboundUseItemOnPacket
+[30Nov2024 13:59:47.646] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Mixing network.protocol.game.CPlayerTryUseItemPacketMixin from mixins.arclight.core.json into net.minecraft.network.protocol.game.ServerboundUseItemPacket
+[30Nov2024 13:59:47.680] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[30Nov2024 13:59:47.680] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[30Nov2024 13:59:47.681] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[30Nov2024 13:59:47.681] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[30Nov2024 13:59:47.695] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Mixing NetworkHooksMixin from mixins.arclight.forge.json into net.minecraftforge.network.NetworkHooks
+[30Nov2024 13:59:47.709] [Netty Epoll Server IO #1/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class io/izzel/arclight/common/mixin/core/network/ServerHandshakeNetHandlerMixin$1
+[30Nov2024 13:59:47.711] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Mixing network.ServerStatusNetHandlerMixin from mixins.arclight.core.json into net.minecraft.server.network.ServerStatusPacketListenerImpl
+[30Nov2024 13:59:47.761] [Netty Epoll Server IO #1/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method $SWITCH_TABLE$net$minecraft$EnumChatFormat()[I class org/bukkit/craftbukkit/v1_20_R1/util/CraftChatMessage$StringMessage
+[30Nov2024 13:59:53.789] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 22 messages to dispatch.
+[30Nov2024 13:59:53.791] [Netty Epoll Server IO #3/DEBUG] [mixin/]: Mixing network.ServerLoginNetHandlerMixin from mixins.arclight.core.json into net.minecraft.server.network.ServerLoginPacketListenerImpl
+[30Nov2024 13:59:53.791] [Netty Epoll Server IO #3/DEBUG] [mixin/]: Renaming synthetic method lambda$handleAcceptedLogin$0()V to md4af70c$lambda$handleAcceptedLogin$0$0 in mixins.arclight.core.json:network.ServerLoginNetHandlerMixin
+[30Nov2024 13:59:53.829] [Netty Epoll Server IO #3/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/server/network/ServerLoginPacketListenerImpl$1SyncPreLogin$177c7ab2235b4105912284d6946c1377 (originally io/izzel/arclight/common/mixin/core/network/ServerLoginNetHandlerMixin$1SyncPreLogin)
+[30Nov2024 13:59:53.831] [Netty Epoll Server IO #3/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/server/network/ServerLoginPacketListenerImpl$2Handler$55131a521479414dad9ffbf71de92293 (originally io/izzel/arclight/common/mixin/core/network/ServerLoginNetHandlerMixin$2Handler)
+[30Nov2024 13:59:53.835] [Netty Epoll Server IO #3/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/server/network/ServerLoginPacketListenerImpl$1Handler$f4c37f7844bf4885a1c5c313c0f371fc (originally io/izzel/arclight/common/mixin/core/network/ServerLoginNetHandlerMixin$1Handler)
+[30Nov2024 13:59:53.840] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player sauldrack is 8d871ac1-dd74-3520-99a3-6efac214abaf
+[30Nov2024 13:59:53.878] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[30Nov2024 13:59:53.927] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[30Nov2024 13:59:53.978] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[30Nov2024 13:59:54.027] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+[30Nov2024 13:59:54.077] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+[30Nov2024 13:59:54.126] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[30Nov2024 13:59:54.130] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+[30Nov2024 13:59:54.131] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[30Nov2024 13:59:54.131] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge]
+[30Nov2024 13:59:54.132] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[30Nov2024 13:59:54.132] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[30Nov2024 13:59:54.132] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[30Nov2024 13:59:54.132] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[30Nov2024 13:59:54.132] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[30Nov2024 13:59:54.133] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[30Nov2024 13:59:54.133] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[30Nov2024 13:59:54.133] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[30Nov2024 13:59:54.133] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[30Nov2024 13:59:54.169] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[30Nov2024 13:59:54.169] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.169] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.177] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+[30Nov2024 13:59:54.221] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[30Nov2024 13:59:54.221] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.221] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.227] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+[30Nov2024 13:59:54.277] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+[30Nov2024 13:59:54.327] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+[30Nov2024 13:59:54.377] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+[30Nov2024 13:59:54.427] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+[30Nov2024 13:59:54.477] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 12
+[30Nov2024 13:59:54.524] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[30Nov2024 13:59:54.525] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.525] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.527] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 13
+[30Nov2024 13:59:54.528] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[30Nov2024 13:59:54.528] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.528] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.569] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[30Nov2024 13:59:54.569] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.569] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.577] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 14
+[30Nov2024 13:59:54.627] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 15
+[30Nov2024 13:59:54.629] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[30Nov2024 13:59:54.629] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.629] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[30Nov2024 13:59:54.673] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.674] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.674] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[30Nov2024 13:59:54.674] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.674] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.677] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 16
+[30Nov2024 13:59:54.720] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[30Nov2024 13:59:54.720] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.720] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.727] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 17
+[30Nov2024 13:59:54.763] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[30Nov2024 13:59:54.763] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.763] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.777] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 18
+[30Nov2024 13:59:54.827] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 19
+[30Nov2024 13:59:54.867] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[30Nov2024 13:59:54.867] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.867] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.877] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 20
+[30Nov2024 13:59:54.878] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[30Nov2024 13:59:54.878] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.878] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.921] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[30Nov2024 13:59:54.921] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:54.921] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:54.927] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 21
+[30Nov2024 13:59:55.017] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[30Nov2024 13:59:55.017] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:55.017] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:55.017] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[30Nov2024 13:59:55.017] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:55.017] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:56.192] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[30Nov2024 13:59:56.193] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:56.193] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:56.201] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 21
+[30Nov2024 13:59:56.201] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Nov2024 13:59:56.201] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Nov2024 13:59:56.227] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[30Nov2024 13:59:56.279] [Server thread/DEBUG] [mixin/]: Mixing world.inventory.HorseInventoryContainerMixin from mixins.arclight.core.json into net.minecraft.world.inventory.HorseInventoryMenu
+[30Nov2024 13:59:56.295] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/entity/player/Player$1
+[30Nov2024 13:59:56.297] [Server thread/DEBUG] [mixin/]: Mixing world.inventory.EnderChestInventoryMixin from mixins.arclight.core.json into net.minecraft.world.inventory.PlayerEnderChestContainer
+[30Nov2024 13:59:56.305] [Server thread/DEBUG] [mixin/]: Mixing world.food.FoodDataMixin from mixins.arclight.core.json into net.minecraft.world.food.FoodData
+[30Nov2024 13:59:56.352] [Server thread/DEBUG] [mixin/]: Mixing world.inventory.CraftingInventoryMixin from mixins.arclight.core.json into net.minecraft.world.inventory.TransientCraftingContainer
+[30Nov2024 13:59:56.362] [Server thread/DEBUG] [Implementer/INVENTORY]: Found implemented class net/minecraft/world/inventory/TransientCraftingContainer
+[30Nov2024 13:59:56.383] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method $SWITCH_TABLE$org$bukkit$event$inventory$InventoryType()[I class org/bukkit/craftbukkit/v1_20_R1/inventory/CraftContainer
+[30Nov2024 13:59:56.411] [Server thread/DEBUG] [mixin/]: Mixing server.PlayerAdvancementsMixin from mixins.arclight.core.json into net.minecraft.server.PlayerAdvancements
+[30Nov2024 13:59:56.444] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sauldrack[/127.71.168.233:49067] logged in with entity id 338 at (10.5, 66.0, 12.5)
+[30Nov2024 13:59:56.462] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@7251298c into net.minecraft.network.Connection@2750b3eb
+[30Nov2024 13:59:56.544] [Server thread/DEBUG] [mixin/]: Mixing network.protocol.game.ClientboundCommandsPacket_ArgumentNodeStubMixin from mixins.arclight.core.json into net.minecraft.network.protocol.game.ClientboundCommandsPacket$ArgumentNodeStub
+[30Nov2024 13:59:56.570] [Server thread/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/network/chat/Component$1Func$d5495ca58d784330b3b770edef7bddfe (originally io/izzel/arclight/common/mixin/core/network/chat/ComponentMixin$1Func)
+[30Nov2024 13:59:56.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack joined the game
+[30Nov2024 13:59:56.871] [Server thread/DEBUG] [mixin/]: Mixing PacketDistributorMixin from mixins.arclight.forge.json into net.minecraftforge.network.PacketDistributor
+[30Nov2024 13:59:56.871] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$playerConsumer$0(Ljava/util/function/Supplier;Lnet/minecraft/network/protocol/Packet;)V to md4af70c$lambda$playerConsumer$0$0 in mixins.arclight.forge.json:PacketDistributorMixin
+[30Nov2024 13:59:57.128] [Server thread/DEBUG] [mixin/]: Mixing world.effect.MobEffectUtilMixin from mixins.arclight.core.json into net.minecraft.world.effect.MobEffectUtil
+[30Nov2024 13:59:57.147] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Filling switch table for class org.bukkit.Statistic
+[30Nov2024 13:59:57.406] [Server thread/DEBUG] [mixin/]: Mixing world.entity.animal.Bee_HurtByOtherGoalMixin from mixins.arclight.core.json into net.minecraft.world.entity.animal.Bee$BeeHurtByOtherGoal
+[30Nov2024 13:59:57.831] [Netty Epoll Server IO #3/DEBUG] [mixin/]: Mixing network.protocol.PacketThreadUtilMixin from mixins.arclight.core.json into net.minecraft.network.protocol.PacketUtils
+[30Nov2024 13:59:57.832] [Netty Epoll Server IO #3/DEBUG] [mixin/]: Renaming synthetic method lambda$ensureRunningOnSameThread$0(Lnet/minecraft/network/PacketListener;Lnet/minecraft/network/protocol/Packet;)V to md4af70c$lambda$ensureRunningOnSameThread$0$0 in mixins.arclight.core.json:network.protocol.PacketThreadUtilMixin
+[30Nov2024 13:59:58.846] [Server thread/DEBUG] [mixin/]: Mixing world.entity.ai.brain.BrainUtilMixin from mixins.arclight.core.json into net.minecraft.world.entity.ai.behavior.BehaviorUtils
+[30Nov2024 14:00:01.760] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Filling switch table for class org.bukkit.Material
+[30Nov2024 14:00:01.775] [Server thread/DEBUG] [mixin/]: Mixing world.level.block.PortalShapeMixin from mixins.arclight.core.json into net.minecraft.world.level.portal.PortalShape
+[30Nov2024 14:00:01.775] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$arclight$buildPortal$0(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V to md4af70c$lambda$arclight$buildPortal$0$0 in mixins.arclight.core.json:world.level.block.PortalShapeMixin
+[30Nov2024 14:00:06.875] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/server/network/ServerGamePacketListenerImpl$2
+[30Nov2024 14:00:06.897] [Server thread/DEBUG] [Implementer/]: Definalize enum class org/bukkit/entity/Pose values field ENUM$VALUES
+[30Nov2024 14:00:12.102] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method $SWITCH_TABLE$org$bukkit$FluidCollisionMode()[I class org/bukkit/craftbukkit/v1_20_R1/CraftFluidCollisionMode
+[30Nov2024 14:00:15.254] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class io/izzel/arclight/common/mixin/core/network/ServerPlayNetHandlerMixin$2
+[30Nov2024 14:00:15.256] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraftforge/event/entity/player/PlayerInteractEvent$1
+[30Nov2024 14:00:15.372] [Worker-Main-16/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/RotatedPillarBlock$1
+[30Nov2024 14:00:15.373] [Worker-Main-16/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/StairBlock$1
+[30Nov2024 14:00:15.373] [Worker-Main-16/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/Rotation$1
+[30Nov2024 14:00:19.312] [Worker-Main-16/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/CrossCollisionBlock$1
+[30Nov2024 14:01:02.180] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[30Nov2024 14:01:02.191] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[30Nov2024 14:01:04.982] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:01:11.931] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:01:16.981] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:01:22.680] [Netty Epoll Server IO #3/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/network/FriendlyByteBuf$1
+[30Nov2024 14:02:06.737] [Server thread/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/server/network/ServerGamePacketListenerImpl$1Handler$4ea38fd4d7d3406385b87483d64b0471 (originally io/izzel/arclight/common/mixin/core/network/ServerPlayNetHandlerMixin$1Handler)
+[30Nov2024 14:02:19.284] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sauldrack issued server command: /op sauldrack
+[30Nov2024 14:02:48.982] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:03:05.831] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:05:57.281] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/Level$2
+[30Nov2024 14:05:57.282] [Server thread/DEBUG] [mixin/]: Mixing world.ExplosionMixin from mixins.arclight.core.json into net.minecraft.world.level.Explosion
+[30Nov2024 14:05:57.282] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$finalizeExplosion$0(Lit/unimi/dsi/fastutil/objects/ObjectArrayList;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;)V to md4af70c$lambda$finalizeExplosion$0$0 in mixins.arclight.core.json:world.ExplosionMixin
+[30Nov2024 14:05:57.338] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/damagesource/DamageSource$1
+[30Nov2024 14:05:57.357] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Filling switch table for class org.bukkit.Material
+[30Nov2024 14:06:02.162] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[30Nov2024 14:06:02.202] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[30Nov2024 14:07:38.928] [Worker-Main-16/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/RailBlock$1
+[30Nov2024 14:07:49.036] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/entity/projectile/AbstractArrow$1
+[30Nov2024 14:07:53.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack was slain by Zombie
