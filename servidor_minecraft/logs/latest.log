@@ -299,3 +299,4 @@
 [30Nov2024 14:02:48.982] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
 [30Nov2024 14:03:05.831] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
 [30Nov2024 14:07:53.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack was slain by Zombie
+[30Nov2024 14:14:03.292] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sauldrack issued server command: /

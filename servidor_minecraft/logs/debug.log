@@ -1882,3 +1882,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [30Nov2024 14:07:38.928] [Worker-Main-16/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/RailBlock$1
 [30Nov2024 14:07:49.036] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/entity/projectile/AbstractArrow$1
 [30Nov2024 14:07:53.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack was slain by Zombie
+[30Nov2024 14:11:02.157] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[30Nov2024 14:11:02.166] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[30Nov2024 14:14:03.292] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sauldrack issued server command: /
+[30Nov2024 14:16:02.147] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[30Nov2024 14:16:02.152] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
