@@ -303,3 +303,18 @@
 [30Nov2024 14:29:28.431] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sauldrack lost connection: Timed out
 [30Nov2024 14:29:28.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack left the game.
 [30Nov2024 14:29:28.494] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[30Nov2024 14:45:31.666] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player sauldrack is 8d871ac1-dd74-3520-99a3-6efac214abaf
+[30Nov2024 14:45:35.192] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sauldrack[/127.71.168.233:59923] logged in with entity id 3886 at (22.487715604210056, 54.0, -54.466896875701146)
+[30Nov2024 14:45:35.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack joined the game
+[30Nov2024 14:45:35.336] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sauldrack lost connection: Disconnected
+[30Nov2024 14:45:35.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack left the game
+[30Nov2024 14:45:36.589] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player sauldrack is 8d871ac1-dd74-3520-99a3-6efac214abaf
+[30Nov2024 14:45:57.932] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7fc5617d[id=8d871ac1-dd74-3520-99a3-6efac214abaf,name=sauldrack,properties={},legacy=false] (/127.71.168.233:48287) lost connection: Disconnected
+[30Nov2024 14:46:02.231] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player sauldrack is 8d871ac1-dd74-3520-99a3-6efac214abaf
+[30Nov2024 14:46:04.235] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sauldrack[/127.71.168.233:42235] logged in with entity id 3908 at (22.487715604210056, 54.0, -54.466896875701146)
+[30Nov2024 14:46:04.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack joined the game
+[30Nov2024 14:46:42.180] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:46:50.830] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:46:54.030] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:47:28.479] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:48:17.380] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
