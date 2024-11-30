@@ -318,3 +318,6 @@
 [30Nov2024 14:46:54.030] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
 [30Nov2024 14:47:28.479] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
 [30Nov2024 14:48:17.380] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
+[30Nov2024 14:56:34.780] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sauldrack lost connection: Timed out
+[30Nov2024 14:56:34.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sauldrack left the game.
+[30Nov2024 14:56:34.858] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
